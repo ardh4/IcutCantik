@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasi Foto dan Hati</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff007f;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        .photo {
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            animation: bounce 2s infinite;
+        }
+        .name {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .heart {
+            font-size: 50px;
+            color: red;
+            margin-top: 20px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>ikan hiu keselek batu i love you sayangku</h1>
+    <div class="container">
+        <img src="Icutcantik.jpg" alt="Foto ICUT PUTRI RAMADHANI" class="photo">
+        <div class="name">ICUT PUTRI RAMADHANI</div>
+    </div>
+    <div class="heart">❤</div>
+</body>
+</html>
